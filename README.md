@@ -1,19 +1,22 @@
 # _Pizza Order_
 
-##### _A tool to determine how much your pizza costs, April 2019_
+##### _A tool for pricing pizza based on size and toppings, April 2019_
 
 ##### By **Brendan Moroso**
 
 ## Description
 
-This project contains a survey by Brendan Moroso, a student in the March 2019 Cohort of Epicodus in Seattle, to be used to
+This project contains a form by Brendan Moroso, a student in the March 2019 Cohort of Epicodus in Seattle, to be used to take sample inputs for size and toppings and return a pizza price. Prices are not based on real world costs of ingredients.
 
 ## Specs
-1.
+1. Page should have a form that can accept toppings and size preference
+    Input: "Kale"
+    Output: none
+2. 
 
 ## Setup/Installation Requirements
 
-* Visit view the contents of this webpage. The site itself is not currently live.
+* Visit https://github.com/diplomapster/pizza-order.git to view the contents of this webpage. The site itself is not currently live.
 
 ## Support and contact details
 

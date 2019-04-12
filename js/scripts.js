@@ -4,14 +4,16 @@ function Pizza(pizzaToppings, pizzaSize, pizzaPrice) {
   this.pizzaPrice = pizzaPrice;
 }
 
-Pizza.prototype.order = (function) {
-  this.pizzaPrice = 10;
-  if 
-}
+// Pizza.prototype.order = function() {
+//   this.pizzaPrice = 10;
+//   if (this.pizzaToppings === 1) {
+//     this.pizzaPrice += 12;
+//   }
+// }
 
 
 //User Interface Logic
-var newOrder = new Order(pizzaToppings, pizzaSize);
+var newOrder = new Pizza();
 
 $(document).ready(function() {
   $("form#new-order").submit(function(event) {

@@ -15,16 +15,29 @@
         <p>Welcome, please let us know what you'd like.</p>
       </div>
 
-        <select class="input" id="pizza-toppings">
-          <option></option>
-          <option value="1">Arugula</option>
-          <option value="2">Mushrooms</option>
-          <option value="3">Kale</option>
-          <option value="4">Procuitto</option>
-        </select>
-
-        <p>*Please note, all our pizzas come with mozarella, basil, and our classic sauce.</p>
-
+      <div class="container"
+        <form id="new-order">
+          <p>What size would you like?</p>
+          <select class="input" id="pizza-size">
+            <option></option>
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">Large</option>
+          </select>
+          <br>
+          <p>Please select your toppings</p>
+          <select class="input" id="pizza-toppings">
+            <option></option>
+            <option value="1">Arugula</option>
+            <option value="2">Mushrooms</option>
+            <option value="3">Kale</option>
+            <option value="4">Procuitto</option>
+          </select>
+          <br>
+          <p>*Please note, all our pizzas come with mozarella, basil, and our classic sauce.</p>
+          <button class="btn btn-primary">Get price</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>

@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Order</title>
   </head>
   <body>
     <div class="containter">
@@ -11,7 +15,15 @@
         <p>Welcome, please let us know what you'd like.</p>
       </div>
 
-        <p>Please note, all our pizzas come with mozarella, basil, and our classic sauce.</p>
+        <select class="input" id="pizza-toppings">
+          <option></option>
+          <option value="1">Arugula</option>
+          <option value="2">Mushrooms</option>
+          <option value="3">Kale</option>
+          <option value="4">Procuitto</option>
+        </select>
+
+        <p>*Please note, all our pizzas come with mozarella, basil, and our classic sauce.</p>
 
     </div>
   </body>

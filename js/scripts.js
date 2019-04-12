@@ -15,6 +15,7 @@ Pizza.prototype.orderPrice = function() {
   }
 }
 
+
 var order = new Pizza();
 //User Interface Logic
 function newOrder(inputtedPizzaSize, inputtedPizzaToppings) {

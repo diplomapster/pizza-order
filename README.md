@@ -12,7 +12,9 @@ This project contains a form by Brendan Moroso, a student in the March 2019 Coho
 1. Page should have a form that can accept toppings and size preference
     Input: "Kale"
     Output: none
-2. 
+2. Page should return a price that varies depending on toppings and size
+    Input: "Small, Kale"
+    Output: price
 
 ## Setup/Installation Requirements
 
